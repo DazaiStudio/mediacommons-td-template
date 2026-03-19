@@ -3,7 +3,7 @@
 *.lck
 
 ## Backups (keep only in local)
-Ballroom/Backup/
+**/Backup/
 
 ## Claude
 .claude/
