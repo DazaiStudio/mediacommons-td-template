@@ -1,16 +1,16 @@
 # NYU Media Commons — DMX Lighting Control
 
-> A TouchDesigner-based DMX lighting control system for three performance spaces at NYU's **370 Jay Street Media Commons** — the **Ballrooms (221–224)**, the **Black Box (Room 220)**, and the **Audio Lab** — unified behind a single sACN (E1.31) output stage.
+> A TouchDesigner-based DMX lighting control system for three performance spaces at NYU's **370 Jay Street Media Commons** — the **Ballrooms (221–224)**, the **Black Box (Room 220)**, and the **Audio Lab (Room 230)** — unified behind a single sACN (E1.31) output stage.
 
 ![Demo](mc-td-demo.gif)
-
-<sub>▶ [Watch full-quality video (22s)](https://github.com/DazaiStudio/nyu-mc-touchdesigner-template/releases/download/v0.1.0/mc-td-demo.mp4)</sub>
 
 ---
 
 ## About
 
-The Media Commons hosts a wide mix of events — performances, film shoots, ballroom-scale gatherings, audio-visual installations, and teaching — each with very different lighting needs. Rather than maintain a separate show file per console per space, this project consolidates every fixture in the building into a single TouchDesigner template with per-space control panels and one consistent sACN output path.
+The **[NYU 370J Media Commons](https://www.instagram.com/370jmediacommons/)** is a production facility at 370 Jay Street, Brooklyn, serving departments in **Steinhardt**, **Tandon**, and **Tisch** — prioritized for ALT, CDI, Game Center, IDM, IMA, ITP, MARL, and Music Tech. It houses five production spaces: **103 The Garage**, **220 Black Box**, **221–224 Ballrooms**, **230 Audio Lab**, and **260 Post Production Lab**.
+
+This project covers DMX lighting control for the three spaces that have dedicated lighting rigs — Ballrooms, Black Box, and Audio Lab — consolidating every fixture in the building into a single TouchDesigner template with per-space control panels and one consistent sACN output path.
 
 It's designed to be **dropped in, configured once, and reused**: fixtures are pre-patched, modules are space-scoped, and the DMX output node is isolated at project level so it cooks reliably regardless of UI state.
 
@@ -31,7 +31,7 @@ Authored and maintained by **Dazai (Tatsan) Chen** — Lighting Technician at NY
 |------|-------|----------|--------|
 | 220 | Black Box | 22 (5 types) | [`DMX_Blackbox.tox`](mediacommons/DMX_Blackbox.tox) |
 | 221–224 | Ballrooms | 50 (4 types) | [`DMX_Ballrooms.tox`](mediacommons/DMX_Ballrooms.tox) |
-| — | Audio Lab | 8 (1 type) | [`DMX_AudioLab.tox`](mediacommons/DMX_AudioLab.tox) |
+| 230 | Audio Lab | 8 (1 type) | [`DMX_AudioLab.tox`](mediacommons/DMX_AudioLab.tox) |
 
 **Total: 80 fixtures across 3 spaces, all controllable from a single `.toe`.**
 
@@ -66,7 +66,7 @@ Standalone performance space with a denser, mixed-fixture rig. See [`docs/Light 
 
 ---
 
-## Audio Lab
+## Audio Lab (Room 230)
 
 8× **Chauvet Ovation F-55FC** in **13-channel mode**. Full tech rider, light plot, patch-bay diagram, and console setup guides (ETC EOS / QLC+ / QLab) are in [`docs/Audio Lab - DMX Lighting Guide and Tech Rider.pdf`](docs/Audio%20Lab%20-%20DMX%20Lighting%20Guide%20and%20Tech%20Rider.pdf).
 
@@ -140,7 +140,7 @@ The splitter cabinet is labeled **WR-FRONT** and is locked — ask an Audio Lab 
 │   ├── Light Plot - 370J MC Ballrooms 080625.pdf
 │   ├── Light Plot - 370J MC BlackBox 080625.pdf
 │   └── Audio Lab - DMX Lighting Guide and Tech Rider.pdf
-├── mc-td-demo.mp4              # Demo capture
+├── mc-td-demo.gif              # README preview
 └── README.md
 ```
 
