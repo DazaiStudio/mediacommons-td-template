@@ -14,10 +14,13 @@ The Media Commons hosts a wide mix of events — performances, film shoots, ball
 
 It's designed to be **dropped in, configured once, and reused**: fixtures are pre-patched, modules are space-scoped, and the DMX output node is isolated at project level so it cooks reliably regardless of UI state.
 
-**Scope of work** (authored and maintained by [Dazai](https://github.com/DazaiStudio)):
+Authored and maintained by **Dazai (Tatsan) Chen** — Lighting Technician at NYU Media Commons ([@DazaiStudio](https://github.com/DazaiStudio)).
+
+**Scope of work:**
 - TouchDesigner architecture, fixture modules (`.tox`), and sACN output pipeline
-- DMX address patching across all three spaces (92 fixtures, 5 fixture types)
-- Light plot diagrams, tech riders, and fixture documentation under [`docs/`](docs)
+- DMX address patching across all three spaces (80 fixtures, 5 fixture types)
+- Vectorworks light plots for Ballrooms and Black Box
+- Audio Lab tech rider, patch-bay documentation, and console setup guides (ETC EOS / QLC+ / QLab)
 - Ongoing maintenance as rooms, fixtures, and event requirements change
 
 ---
@@ -168,9 +171,7 @@ The splitter cabinet is labeled **WR-FRONT** and is locked — ask an Audio Lab 
 
 ## Credits
 
-Maintained by **[Dazai](https://github.com/DazaiStudio)** — TouchDesigner integration, DMX patching, documentation, and ongoing rig maintenance.
-
-Light plot drawings (Ballrooms & Black Box) produced in Vectorworks by **Tatsan Chen** (Aug 2025).
+**Dazai (Tatsan) Chen** — Lighting Technician, NYU 370J Media Commons. Authored and maintains the full stack: Vectorworks light plots (Aug 2025), DMX patching, TouchDesigner modules, sACN pipeline, and the Audio Lab tech rider. GitHub: [@DazaiStudio](https://github.com/DazaiStudio).
 
 ## License
 
