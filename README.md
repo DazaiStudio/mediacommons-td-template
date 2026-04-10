@@ -2,7 +2,7 @@
 
 TouchDesigner-based DMX lighting control system for the NYU 370 Jay Street Media Commons facility, outputting via sACN (streaming ACN / E1.31).
 
-https://github.com/DazaiStudio/mediacommons-td-template/raw/main/mc-td-demo.mp4
+https://github.com/DazaiStudio/mediacommons-td-template/releases/download/v0.1.0/mc-td-demo.mp4
 
 ## Rooms & Fixtures
 
